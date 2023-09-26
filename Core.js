@@ -721,9 +721,9 @@ if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinp
 const responses = {
 
   
-  hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
+  hello: `مرحبا ${pushname}, انا ${BotName}. البادئة الحالية الخاصه بي"${prefix}".كيف يمكنني مساعدتك`,
   slasher: `My Boss is lost in another Multiverse, and I lost connection with him...`,
-  runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
+  runtime: `مرحبا ${pushname}\n${nowtime}\n\nوقت التشغيل الخاص بي:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nاالوقت ${kaitime}\n\nالتاريخ: ${kaidate}\n\nاليوم is ${currentDay}`,
   konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?`,
   komari: 'Only you...🫶🏻',
   ping: `Hey ${pushname}, Pong ${latensie.toFixed(4)} ms`,
