@@ -51,7 +51,7 @@ const store = makeInMemoryStore({
 async function startA17() {
   console.log(
     color(
-      figlet.textSync("XLICON-MD", {
+      figlet.textSync("وورق عنبMD", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -62,7 +62,7 @@ async function startA17() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Slasher, the Founder of this bot.\n\nThanks for using: Xlicon Bot.', 'aqua'))
+  console.log(color('\nHello, I am Slasher, the Founder of this bot.\n\nThanks for using: ورق عنب بوت.', 'aqua'))
   console.log(color('\nYou can follow me on GitHub: ahil15', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./XLICON-SESSION");
@@ -183,7 +183,7 @@ async function startA17() {
             A17text = `
   Hello @${WAuserName.split("@")[0]},
   
-  I am *Xlicon Bot*, Welcome to ${metadata.subject}.
+  I am *ررق عنب بوت*, Welcome to ${metadata.subject}.
   
   *Group Description:*
   ${metadata.desc}
